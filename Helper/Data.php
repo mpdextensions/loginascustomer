@@ -30,7 +30,7 @@ use Magento\Framework\Math\Random;
 use Magento\Framework\ObjectManagerInterface;
 use Magento\Store\Api\Data\StoreInterface;
 use Magento\Store\Model\StoreManagerInterface;
-use Mpdextensions\BaseAdmin\Helper\AbstractData;
+use Mpdextensions\Core\Helper\AbstractData;
 
 /**
  * Class Data
