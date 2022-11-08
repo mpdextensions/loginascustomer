@@ -1,10 +1,10 @@
 <?php
 /**
- * Mpdextensions
+ * MpdExtensions
  *
  * NOTICE OF LICENSE
  *
- * This source file is subject to the Mpdextensions.com license that is
+ * This source file is subject to the MpdExtensions.com license that is
  * available through the world-wide-web at this URL:
  * https://www.mpdextensions.com/LICENSE.txt
  *
@@ -13,13 +13,13 @@
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
  *
- * @category    Mpdextensions
- * @package     Mpdextensions_LoginAsCustomer
- * @copyright   Copyright (c) Mpdextensions (https://www.mpdextensions.com/)
+ * @category    MpdExtensions
+ * @package     MpdExtensions_LoginAsCustomer
+ * @copyright   Copyright (c) MpdExtensions (https://www.mpdextensions.com/)
  * @license     https://www.mpdextensions.com/LICENSE.txt
  */
 
-namespace Mpdextensions\LoginAsCustomer\Ui\Component\Listing\Columns;
+namespace MpdExtensions\LoginAsCustomer\Ui\Component\Listing\Columns;
 
 use Exception;
 use Magento\Customer\Model\ResourceModel\CustomerRepository;
@@ -29,7 +29,7 @@ use Magento\Ui\Component\Listing\Columns\Column;
 
 /**
  * Class Customer
- * @package Mpdextensions\LoginAsCustomer\Ui\Component\Listing\Columns
+ * @package MpdExtensions\LoginAsCustomer\Ui\Component\Listing\Columns
  */
 class Customer extends Column
 {

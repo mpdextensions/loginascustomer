@@ -1,10 +1,10 @@
 <?php
 /**
- * Mpdextensions
+ * MpdExtensions
  *
  * NOTICE OF LICENSE
  *
- * This source file is subject to the Mpdextensions.com license that is
+ * This source file is subject to the mpdextensions.com license that is
  * available through the world-wide-web at this URL:
  * https://www.mpdextensions.com/LICENSE.txt
  *
@@ -13,20 +13,20 @@
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
  *
- * @category    Mpdextensions
- * @package     Mpdextensions_LoginAsCustomer
- * @copyright   Copyright (c) Mpdextensions (https://www.mpdextensions.com/)
+ * @category    MpdExtensions
+ * @package     MpdExtensions_LoginAsCustomer
+ * @copyright   Copyright (c) MpdExtensions (https://www.mpdextensions.com/)
  * @license     https://www.mpdextensions.com/LICENSE.txt
  */
 
-namespace Mpdextensions\LoginAsCustomer\Model\ResourceModel\Log;
+namespace MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
-use Mpdextensions\LoginAsCustomer\Model\ResourceModel\Log;
+use MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log;
 
 /**
  * Class Collection
- * @package Mpdextensions\LoginAsCustomer\Model\ResourceModel\Log
+ * @package MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log
  */
 class Collection extends AbstractCollection
 {
@@ -56,6 +56,6 @@ class Collection extends AbstractCollection
      */
     protected function _construct()
     {
-        $this->_init(\Mpdextensions\LoginAsCustomer\Model\Log::class, Log::class);
+        $this->_init(\MpdExtensions\LoginAsCustomer\Model\Log::class, Log::class);
     }
 }

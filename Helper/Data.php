@@ -1,10 +1,10 @@
 <?php
 /**
- * Mpdextensions
+ * MpdExtensions
  *
  * NOTICE OF LICENSE
  *
- * This source file is subject to the Mpdextensions.com license that is
+ * This source file is subject to the mpdextensions.com license that is
  * available through the world-wide-web at this URL:
  * https://www.mpdextensions.com/LICENSE.txt
  *
@@ -13,13 +13,13 @@
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
  *
- * @category    Mpdextensions
- * @package     Mpdextensions_LoginAsCustomer
- * @copyright   Copyright (c) Mpdextensions (https://www.mpdextensions.com/)
+ * @category    MpdExtensions
+ * @package     MpdExtensions_LoginAsCustomer
+ * @copyright   Copyright (c) MpdExtensions (https://www.mpdextensions.com/)
  * @license     https://www.mpdextensions.com/LICENSE.txt
  */
 
-namespace Mpdextensions\LoginAsCustomer\Helper;
+namespace MpdExtensions\LoginAsCustomer\Helper;
 
 use Magento\Customer\Model\Customer;
 use Magento\Framework\App\Helper\Context;
@@ -30,11 +30,11 @@ use Magento\Framework\Math\Random;
 use Magento\Framework\ObjectManagerInterface;
 use Magento\Store\Api\Data\StoreInterface;
 use Magento\Store\Model\StoreManagerInterface;
-use Mpdextensions\Core\Helper\AbstractData;
+use MpdExtensions\Core\Helper\AbstractData;
 
 /**
  * Class Data
- * @package Mpdextensions\LoginAsCustomer\Helper
+ * @package MpdExtensions\LoginAsCustomer\Helper
  */
 class Data extends AbstractData
 {
@@ -77,7 +77,7 @@ class Data extends AbstractData
      */
     public function isAllowLogin()
     {
-        return $this->isEnabled() && $this->_authorization->isAllowed('Mpdextensions_LoginAsCustomer::allow');
+        return $this->isEnabled() && $this->_authorization->isAllowed('MpdExtensions_LoginAsCustomer::allow');
     }
 
     /**

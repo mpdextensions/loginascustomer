@@ -9,7 +9,7 @@
   "license": "proprietary",
   "authors": [
     {
-      "name": "Mpdextensions",
+      "name": "MpdExtensions",
       "email": "support@mpdextensions.com",
       "homepage": "https://www.mpdextensions.com",
       "role": "Technical Support"
@@ -20,7 +20,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Mpdextensions\\LoginAsCustomer\\": ""
+      "MpdExtensions\\LoginAsCustomer\\": ""
     }
   }
 }

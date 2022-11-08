@@ -1,10 +1,10 @@
 <?php
 /**
- * Mpdextensions
+ * MpdExtensions
  *
  * NOTICE OF LICENSE
  *
- * This source file is subject to the Mpdextensions.com license that is
+ * This source file is subject to the mpdextensions.com license that is
  * available through the world-wide-web at this URL:
  * https://www.mpdextensions.com/LICENSE.txt
  *
@@ -13,13 +13,13 @@
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
  *
- * @category    Mpdextensions
- * @package     Mpdextensions_LoginAsCustomer
- * @copyright   Copyright (c) Mpdextensions (https://www.mpdextensions.com/)
+ * @category    MpdExtensions
+ * @package     MpdExtensions_LoginAsCustomer
+ * @copyright   Copyright (c) MpdExtensions (https://www.mpdextensions.com/)
  * @license     https://www.mpdextensions.com/LICENSE.txt
  */
 
-namespace Mpdextensions\LoginAsCustomer\Controller\Adminhtml\Log;
+namespace MpdExtensions\LoginAsCustomer\Controller\Adminhtml\Log;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -28,7 +28,7 @@ use Magento\Framework\View\Result\PageFactory;
 
 /**
  * Class Index
- * @package Mpdextensions\LoginAsCustomer\Controller\Adminhtml\Log
+ * @package MpdExtensions\LoginAsCustomer\Controller\Adminhtml\Log
  */
 class Index extends Action
 {
@@ -37,7 +37,7 @@ class Index extends Action
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'Mpdextensions_LoginAsCustomer::logs';
+    const ADMIN_RESOURCE = 'MpdExtensions_LoginAsCustomer::logs';
 
     /**
      * Page result factory

@@ -1,10 +1,10 @@
 <?php
 /**
- * Mpdextensions
+ * MpdExtensions
  *
  * NOTICE OF LICENSE
  *
- * This source file is subject to the Mpdextensions.com license that is
+ * This source file is subject to the mpdextensions.com license that is
  * available through the world-wide-web at this URL:
  * https://www.mpdextensions.com/LICENSE.txt
  *
@@ -13,19 +13,19 @@
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
  *
- * @category    Mpdextensions
- * @package     Mpdextensions_LoginAsCustomer
- * @copyright   Copyright (c) Mpdextensions (https://www.mpdextensions.com/)
+ * @category    MpdExtensions
+ * @package     MpdExtensions_LoginAsCustomer
+ * @copyright   Copyright (c) MpdExtensions (https://www.mpdextensions.com/)
  * @license     https://www.mpdextensions.com/LICENSE.txt
  */
 
-namespace Mpdextensions\LoginAsCustomer\Model\ResourceModel;
+namespace MpdExtensions\LoginAsCustomer\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
 /**
  * Class Log
- * @package Mpdextensions\LoginAsCustomer\Model\ResourceModel
+ * @package MpdExtensions\LoginAsCustomer\Model\ResourceModel
  */
 class Log extends AbstractDb
 {
@@ -36,6 +36,6 @@ class Log extends AbstractDb
      */
     protected function _construct()
     {
-        $this->_init('mpdextensions_login_as_customer', 'log_id');
+        $this->_init('MpdExtensions_login_as_customer', 'log_id');
     }
 }
