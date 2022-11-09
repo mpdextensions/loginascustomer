@@ -30,7 +30,7 @@ use Zend_Db_Exception;
 
 /**
  * Class InstallSchema
- * @package MpdExtensions\LoginAsCustomer\Setup
+ * MpdExtensions\LoginAsCustomer\Setup
  */
 class InstallSchema implements InstallSchemaInterface
 {
@@ -50,6 +50,8 @@ class InstallSchema implements InstallSchemaInterface
     }
 
     /**
+     * Install schema
+     *
      * @param SchemaSetupInterface $setup
      * @param ModuleContextInterface $context
      *

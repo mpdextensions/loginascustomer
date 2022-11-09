@@ -25,12 +25,12 @@ use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
 /**
  * Class Log
- * @package MpdExtensions\LoginAsCustomer\Model\ResourceModel
+ * MpdExtensions\LoginAsCustomer\Model\ResourceModel
  */
 class Log extends AbstractDb
 {
     /**
-     * Initialize resource model
+     * Contructor for Log
      *
      * @return void
      */

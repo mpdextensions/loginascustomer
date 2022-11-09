@@ -26,7 +26,7 @@ use MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log;
 
 /**
  * Class Collection
- * @package MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log
+ * MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log
  */
 class Collection extends AbstractCollection
 {
@@ -36,15 +36,11 @@ class Collection extends AbstractCollection
     protected $_idFieldName = 'log_id';
 
     /**
-     * Event prefix
-     *
      * @var string
      */
     protected $_eventPrefix = 'mp_loc_log_collection';
 
     /**
-     * Event object
-     *
      * @var string
      */
     protected $_eventObject = 'log_collection';

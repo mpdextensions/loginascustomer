@@ -20,18 +20,24 @@
  * @license     https://www.mpdextensions.com/LICENSE.txt
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="mploginascustomer_log_listing_data_source" xsi:type="string">MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log\Grid\Collection</item>
+                <item name="mploginascustomer_log_listing_data_source" xsi:type="string">
+                    MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log\Grid\Collection
+                </item>
             </argument>
         </arguments>
     </type>
-    <virtualType name="MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+    <virtualType name="MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log\Grid\Collection" 
+            type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
-            <argument name="mainTable" xsi:type="string">MpdExtensions_login_as_customer</argument>
-            <argument name="resourceModel" xsi:type="string">MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log</argument>
+            <argument name="mainTable" xsi:type="string">mpdextensions_login_as_customer</argument>
+            <argument name="resourceModel" xsi:type="string">
+                MpdExtensions\LoginAsCustomer\Model\ResourceModel\Log
+            </argument>
         </arguments>
     </virtualType>
 </config>

@@ -26,7 +26,7 @@ use MpdExtensions\LoginAsCustomer\Helper\Data;
 
 /**
  * Class AddButton
- * @package MpdExtensions\LoginAsCustomer\Plugin
+ * Add button plugin class
  */
 class AddButton
 {
@@ -46,6 +46,8 @@ class AddButton
     }
 
     /**
+     * Before Get Back Url
+     *
      * @param View $subject
      */
     public function beforeGetBackUrl(View $subject)

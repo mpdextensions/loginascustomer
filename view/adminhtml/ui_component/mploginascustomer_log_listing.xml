@@ -20,17 +20,24 @@
  * @license     https://www.mpdextensions.com/LICENSE.txt
  */
 -->
-<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
     <argument name="data" xsi:type="array">
         <item name="js_config" xsi:type="array">
-            <item name="provider" xsi:type="string">mploginascustomer_log_listing.mploginascustomer_log_listing_data_source</item>
-            <item name="deps" xsi:type="string">mploginascustomer_log_listing.mploginascustomer_log_listing_data_source</item>
+            <item name="provider" xsi:type="string">
+                mploginascustomer_log_listing.mploginascustomer_log_listing_data_source
+            </item>
+            <item name="deps" xsi:type="string">
+                mploginascustomer_log_listing.mploginascustomer_log_listing_data_source
+            </item>
         </item>
         <item name="spinner" xsi:type="string">mploginascustomer_log_columns</item>
     </argument>
     <dataSource name="mploginascustomer_log_listing_data_source">
         <argument name="dataProvider" xsi:type="configurableObject">
-            <argument name="class" xsi:type="string">Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider</argument>
+            <argument name="class" xsi:type="string">
+                Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider
+            </argument>
             <argument name="name" xsi:type="string">mploginascustomer_log_listing_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">log_id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>
@@ -59,12 +66,16 @@
         <argument name="data" xsi:type="array">
             <item name="config" xsi:type="array">
                 <item name="storageConfig" xsi:type="array">
-                    <item name="provider" xsi:type="string">mploginascustomer_log_listing.mploginascustomer_log_listing.listing_top.bookmarks</item>
+                    <item name="provider" xsi:type="string">
+                        mploginascustomer_log_listing.mploginascustomer_log_listing.listing_top.bookmarks
+                    </item>
                     <item name="namespace" xsi:type="string">current</item>
                 </item>
                 <item name="childDefaults" xsi:type="array">
                     <item name="storageConfig" xsi:type="array">
-                        <item name="provider" xsi:type="string">mploginascustomer_log_listing.mploginascustomer_log_listing.listing_top.bookmarks</item>
+                        <item name="provider" xsi:type="string">
+                            mploginascustomer_log_listing.mploginascustomer_log_listing.listing_top.bookmarks
+                        </item>
                         <item name="root" xsi:type="string">columns.${ $.index }</item>
                         <item name="namespace" xsi:type="string">current.${ $.storageConfig.root}</item>
                     </item>
@@ -89,7 +100,8 @@
                 </item>
             </argument>
         </column>
-        <column name="created_at" class="Magento\Ui\Component\Listing\Columns\Date" component="Magento_Ui/js/grid/columns/date">
+        <column name="created_at" class="Magento\Ui\Component\Listing\Columns\Date" 
+                component="Magento_Ui/js/grid/columns/date">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="label" xsi:type="string" translate="true">Logged In At</item>

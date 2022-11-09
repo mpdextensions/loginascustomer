@@ -26,26 +26,25 @@ use Magento\Framework\Model\AbstractModel;
 
 /**
  * Class Log
- * @package MpdExtensions\LoginAsCustomer\Model
+ * MpdExtensions\LoginAsCustomer\Model
  */
 class Log extends AbstractModel implements IdentityInterface
 {
-    /**
-     * Cache tag
-     */
     const CACHE_TAG = 'loc_log';
 
-    /**#@-*/
+    /**
+     * @var string
+     */
     protected $_cacheTag = self::CACHE_TAG;
 
     /**
-     * Prefix of model events names
-     *
      * @var string
      */
     protected $_eventPrefix = 'mp_loc_log';
 
     /**
+     * Contructor
+     *
      * @return void
      */
     protected function _construct()
@@ -54,7 +53,7 @@ class Log extends AbstractModel implements IdentityInterface
     }
 
     /**
-     * Get identities
+     * Get Identities
      *
      * @return array
      */

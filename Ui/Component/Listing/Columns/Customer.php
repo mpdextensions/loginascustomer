@@ -29,7 +29,7 @@ use Magento\Ui\Component\Listing\Columns\Column;
 
 /**
  * Class Customer
- * @package MpdExtensions\LoginAsCustomer\Ui\Component\Listing\Columns
+ * Customer class for column listing
  */
 class Customer extends Column
 {
@@ -60,8 +60,9 @@ class Customer extends Column
     }
 
     /**
-     * @param array $dataSource
+     * Prepare Data Source
      *
+     * @param array $dataSource
      * @return array
      */
     public function prepareDataSource(array $dataSource)

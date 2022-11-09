@@ -28,7 +28,7 @@ use Magento\User\Model\UserFactory;
 
 /**
  * Class Admin
- * @package MpdExtensions\LoginAsCustomer\Ui\Component\Listing\Columns
+ * Admin class for column listing
  */
 class Admin extends Column
 {
@@ -62,7 +62,6 @@ class Admin extends Column
      * Prepare Data Source
      *
      * @param array $dataSource
-     *
      * @return array
      */
     public function prepareDataSource(array $dataSource)

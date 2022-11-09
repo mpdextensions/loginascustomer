@@ -34,7 +34,7 @@ use MpdExtensions\LoginAsCustomer\Model\LogFactory;
 
 /**
  * Class Index
- * @package MpdExtensions\LoginAsCustomer\Controller\Adminhtml\Login
+ * Index controller for admmin login
  */
 class Index extends Action
 {
@@ -82,6 +82,8 @@ class Index extends Action
     }
 
     /**
+     * Execute function
+     *
      * @return ResponseInterface|ResultInterface
      * @throws NoSuchEntityException
      * @throws LocalizedException

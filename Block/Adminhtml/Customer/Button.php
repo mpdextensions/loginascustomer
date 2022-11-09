@@ -29,7 +29,7 @@ use MpdExtensions\LoginAsCustomer\Helper\Data;
 
 /**
  * Class Button
- * @package MpdExtensions\LoginAsCustomer\Block\Adminhtml\Customer
+ * Button class for customer in admin
  */
 class Button extends GenericButton implements ButtonProviderInterface
 {
@@ -56,6 +56,8 @@ class Button extends GenericButton implements ButtonProviderInterface
     }
 
     /**
+     * Get Button Data
+     *
      * @return array
      */
     public function getButtonData()
@@ -75,6 +77,8 @@ class Button extends GenericButton implements ButtonProviderInterface
     }
 
     /**
+     * Get Login URL
+     *
      * @return string
      */
     public function getLoginUrl()

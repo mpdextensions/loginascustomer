@@ -20,8 +20,11 @@
  * @license     https://www.MpdExtensions.com/LICENSE.txt
  */
 -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="MpdExtensions_LoginAsCustomer::logs" title="Login as Customer Logs" module="MpdExtensions_LoginAsCustomer" sortOrder="100" parent="Magento_Reports::report_customers" action="mploginascustomer/log/index" resource="MpdExtensions_LoginAsCustomer::logs"/>
+        <add id="MpdExtensions_LoginAsCustomer::logs" title="Login as Customer Logs" 
+            module="MpdExtensions_LoginAsCustomer" sortOrder="100" parent="Magento_Reports::report_customers"
+            action="mploginascustomer/log/index" resource="MpdExtensions_LoginAsCustomer::logs"/>
     </menu>
 </config>

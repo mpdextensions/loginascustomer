@@ -34,7 +34,7 @@ use MpdExtensions\Core\Helper\AbstractData;
 
 /**
  * Class Data
- * @package MpdExtensions\LoginAsCustomer\Helper
+ * MpdExtensions\LoginAsCustomer\Helper
  */
 class Data extends AbstractData
 {
@@ -73,6 +73,8 @@ class Data extends AbstractData
     }
 
     /**
+     * Is Allow Login Function
+     *
      * @return bool
      */
     public function isAllowLogin()
@@ -81,6 +83,8 @@ class Data extends AbstractData
     }
 
     /**
+     * Get Login Token
+     *
      * @return string
      * @throws LocalizedException
      */
@@ -90,8 +94,9 @@ class Data extends AbstractData
     }
 
     /**
-     * @param Customer $customer
+     * Get Store
      *
+     * @param Customer $customer
      * @return StoreInterface|null
      * @throws NoSuchEntityException
      */

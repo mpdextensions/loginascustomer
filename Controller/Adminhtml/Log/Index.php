@@ -28,7 +28,8 @@ use Magento\Framework\View\Result\PageFactory;
 
 /**
  * Class Index
- * @package MpdExtensions\LoginAsCustomer\Controller\Adminhtml\Log
+ *
+ * Index admin controller
  */
 class Index extends Action
 {
@@ -62,7 +63,7 @@ class Index extends Action
     }
 
     /**
-     * execute the action
+     * Execute the action
      *
      * @return \Magento\Backend\Model\View\Result\Page|Page
      */

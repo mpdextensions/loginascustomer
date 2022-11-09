@@ -36,7 +36,7 @@ use MpdExtensions\LoginAsCustomer\Model\LogFactory;
 
 /**
  * Class Index
- * @package MpdExtensions\LoginAsCustomer\Controller\Login
+ * MpdExtensions\LoginAsCustomer\Controller\Login
  */
 class Index extends Action
 {
@@ -93,6 +93,8 @@ class Index extends Action
     }
 
     /**
+     * Execute Function
+     *
      * @return ResponseInterface|Forward|Redirect|ResultInterface
      */
     public function execute()
