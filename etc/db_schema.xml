@@ -22,7 +22,7 @@
 -->
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
-    <table name="MpdExtensions_login_as_customer" resource="default" 
+    <table name="mpdextensions_login_as_customer" resource="default" 
             engine="innodb" comment="Login As Customer Logs table">
         <column xsi:type="int" name="log_id" padding="10" 
                 unsigned="true" nullable="false" identity="true" comment="Entity ID"/>
