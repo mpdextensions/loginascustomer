@@ -2,10 +2,10 @@
   "name": "mpdextensions/module-login-as-customer",
   "description": "Magento 2 Login As Customer Extension",
   "require": {
-    "mpdextensions/module-core": "1.0.1"
+    "mpdextensions/module-core": "1.0.3"
   },
   "type": "magento2-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "proprietary",
   "authors": [
     {
